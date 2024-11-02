@@ -2,11 +2,11 @@ import { SafeAreaView, Text, StyleSheet, TouchableOpacity, View, TextInput } fro
 
 
 export default function DrawerItem(props) {
-  const { onNavigate, label, SvgComponent } = props; // text yerine label kullan
+  const { onNavigate, label, SvgComponent } = props; 
   return (
     <TouchableOpacity style={styles.drawerItem} onPress={()=> onNavigate}>
       <SvgComponent   />
-      <Text style={styles.drawerItemText}>{label}</Text> {/* text yerine label */}
+      <Text style={styles.drawerItemText}>{label}</Text> 
     </TouchableOpacity>
   );
 }

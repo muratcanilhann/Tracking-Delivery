@@ -12,8 +12,8 @@ export default function Login() {
     const keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', () => {
       setKeyboardVisible(true);
       Animated.timing(translateY, {
-        toValue: -100, // Yukarı kaydırma miktarı
-        duration: 200, // Animasyon süresi
+        toValue: -100, 
+        duration: 200, 
         useNativeDriver: true,
       }).start();
     });
@@ -21,8 +21,8 @@ export default function Login() {
     const keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', () => {
       setKeyboardVisible(false);
       Animated.timing(translateY, {
-        toValue: 0, // Aşağı inme
-        duration: 200, // Animasyon süresi
+        toValue: 0, 
+        duration: 200, 
         useNativeDriver: true,
       }).start();
     });
@@ -86,7 +86,7 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#071333', // Arka plan rengi
+    backgroundColor: '#071333',
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: width < 400 ? 20 : 40,
@@ -154,5 +154,6 @@ const styles = StyleSheet.create({
   registerLink: {
     color: "#5F77F5",
     fontWeight: "bold",
+    
   },
 });

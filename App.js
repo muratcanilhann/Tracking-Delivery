@@ -65,7 +65,7 @@ function CustomDrawerContent(props) {
   return (
     <SafeAreaView style={styles.drawerContainer}>
       <View style={styles.drawerHeader}>
-        <Text style={styles.drawerHeaderText}>Shippfast</Text>
+        <Text style={styles.drawerHeaderText}>Shipfast</Text>
 
        
         <View style={styles.searchContainer}>
