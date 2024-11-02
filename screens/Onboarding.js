@@ -9,7 +9,7 @@ import Group from "../assets/SVG/Group.svg"
 
 
 
-export default function WelcomePage() {
+export default function Onboarding() {
 
     SplashScreen.preventAutoHideAsync();
     const [loaded, error] = useFonts({
@@ -26,9 +26,7 @@ export default function WelcomePage() {
       return null;
     }
   
-    function cons(){
-      console.log(("pressed"))
-    }
+   
     
     return (
       <SafeAreaView style={styles.container}>
@@ -49,7 +47,7 @@ export default function WelcomePage() {
   </Text>
   
   
-      <TouchableOpacity style={styles.button} onPress={cons}>
+      <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Next</Text>
       </TouchableOpacity>
   
