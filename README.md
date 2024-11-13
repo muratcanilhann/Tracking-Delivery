@@ -1,14 +1,19 @@
-## Proje Ekran Görüntüleri
+## Screens Shots
 
+### Page 1
+<img src="screenshots/ss1.jpeg" alt="Page1" width="400"/>
 
-![Page1](screenshots/ss1.jpeg)
+### Page 2
+<img src="screenshots/ss2.jpeg" alt="Page2" width="400"/>
 
-![Page2](screenshots/ss2.jpeg)
+### Page 3
+<img src="screenshots/ss3.jpeg" alt="Page3" width="400"/>
 
-![Page3](screenshots/ss3.jpeg)
+### Page 4
+<img src="screenshots/ss4.jpeg" alt="Page4" width="400"/>
 
-![Page4](screenshots/ss4.jpeg)
+### Page 5
+<img src="screenshots/ss5.jpeg" alt="Page5" width="400"/>
 
-![Page5](screenshots/ss5.jpeg)
-
-![Page6](screenshots/ss6.jpeg)
+### Page 6
+<img src="screenshots/ss6.jpeg" alt="Page6" width="400"/>
