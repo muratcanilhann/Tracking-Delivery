@@ -1,6 +1,6 @@
 # Tracking Delivery UI Kit
 
-Bu proje, teslimat takibi için modern bir UI Kit'tir. Aşağıda ekran görüntüleri ve Figma tasarımı bağlantısını bulabilirsiniz.
+Bu proje, teslimat takibi için modern React Native arayüzleri içermektedir. Aşağıda ekran görüntüleri ve Figma tasarımı bağlantısını bulabilirsiniz.
 
 ## Ekran Görüntüleri
 
